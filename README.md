@@ -1,1 +1,2 @@
-# JavaScript30
+# Reto JavaScript30
+https://javascript30.com/
