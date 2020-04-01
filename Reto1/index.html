@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CatsSounds</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class = "keys">
+            <div class = "key" key-code = "68">
+                <kbd>D</kbd>
+                <span class = "sound">Meow</span>
+            </div>
+            <div class = "key" key-code = "70">
+                <kbd>F</kbd>
+                <span class = "sound">Purring</span>
+            </div>
+            <div class = "key" key-code = "71">
+                <kbd>G</kbd>
+                <span class = "sound">Scream</span>
+            </div>
+            <div class = "key" key-code = "72">
+                <kbd>H</kbd>
+                <span class = "sound">Listen me</span>
+            </div>
+            <div class = "key" key-code = "74">
+                <kbd>J</kbd>
+                <span class = "sound">Kitten</span>
+            </div>
+            <div class = "key" key-code = "75">
+                <kbd>K</kbd>
+                <span class = "sound">TomCat</span>
+            </div>
+        </div>
+
+        <audio key-code="68" src="src/sounds/CatMeow.wav"></audio>
+        <audio key-code="70" src="src/sounds/CatPurring.wav"></audio>
+        <audio key-code="71" src="src/sounds/CatScream.wav"></audio>
+        <audio key-code="72" src="src/sounds/CatsMeow.wav"></audio>
+        <audio key-code="74" src="src/sounds/KittenMeow.wav"></audio>
+        <audio key-code="75" src="src/sounds/TomCat.wav"></audio>     
+
+    </body>
+    <script src="script.js"></script>
+</html>

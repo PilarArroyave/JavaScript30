@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Artifika-Regular;
+  src: url(src/fonts/Artifika-Regular.ttf);
+}
+
+html {
+    font-size: 10px;
+    background: url(https://static.vecteezy.com/system/resources/previews/000/621/432/non_2x/cartoon-cute-cats-playing-computer-vector.jpg) center;
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: Artifika-Regular, sans-serif;
+    background-color: rgba(0,0,0,0.7)
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: pink;
+    box-shadow: 0 0 1rem pink;
+  }
+  
+  kbd {
+    display: block;
+    font-family: Artifika-Regular;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: pink;
+  }
